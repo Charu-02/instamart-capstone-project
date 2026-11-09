@@ -1,0 +1,85 @@
+{
+  "logistic": {
+    "confusion_matrix": [
+      [
+        111,
+        32
+      ],
+      [
+        31,
+        58
+      ]
+    ],
+    "precision": 0.6444444444444445,
+    "recall": 0.651685393258427,
+    "f1": 0.6480446927374302
+  },
+  "random_forest": {
+    "confusion_matrix": [
+      [
+        113,
+        30
+      ],
+      [
+        31,
+        58
+      ]
+    ],
+    "precision": 0.6590909090909091,
+    "recall": 0.651685393258427,
+    "f1": 0.655367231638418
+  },
+  "baseline": {
+    "accuracy": 0.6163793103448276,
+    "lapsed_f1": 0.0
+  },
+  "balanced_logistic": {
+    "precision": 0.5891472868217055,
+    "recall": 0.8539325842696629,
+    "f1": 0.6972477064220184,
+    "train_class_counts": {
+      "1": 570,
+      "0": 570
+    }
+  },
+  "interpretation": {
+    "rf_top5": [
+      [
+        "num__frequency",
+        0.2796033879678987
+      ],
+      [
+        "num__monetary",
+        0.27122322915534913
+      ],
+      [
+        "num__recency",
+        0.11524057262015824
+      ],
+      [
+        "num__avg_delivery",
+        0.06120442299223157
+      ],
+      [
+        "num__cancellation_rate",
+        0.05246606007263124
+      ]
+    ],
+    "logistic_top3_coefficients": [
+      [
+        "num__frequency",
+        -1.697330725855104
+      ],
+      [
+        "cat__favourite_category_Electronics",
+        -1.1350564326022845
+      ],
+      [
+        "cat__favourite_category_Grocery",
+        -0.44922553406560484
+      ]
+    ],
+    "training_scaler_frequency_mean": 8.114718614718615,
+    "full_cohort_frequency_mean": 8.028546712802768
+  }
+}

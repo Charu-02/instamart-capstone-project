@@ -1,0 +1,13 @@
+{
+  "cohort_n": 1156,
+  "lapsed_n": 443,
+  "train_n": 924,
+  "test_n": 232,
+  "logistic_best": "{'model__C': 100}",
+  "logistic_cv_f1": 0.650552962900789,
+  "forest_best": "{'model__max_depth': 8, 'model__min_samples_leaf': 10}",
+  "forest_cv_f1": 0.6810534884225208,
+  "selected_test_f1": 0.655367231638418,
+  "selected_model": "random_forest",
+  "retention_true_lapsed": 1
+}

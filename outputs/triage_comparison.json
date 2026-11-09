@@ -1,0 +1,14 @@
+{
+  "zero_shot": {
+    "classified": 147,
+    "accuracy": 0.8571428571428571,
+    "tokens": 9088,
+    "tokens_per_classified": 61.82312925170068
+  },
+  "few_shot": {
+    "classified": 147,
+    "accuracy": 1.0,
+    "tokens": 13144,
+    "tokens_per_classified": 89.41496598639456
+  }
+}
